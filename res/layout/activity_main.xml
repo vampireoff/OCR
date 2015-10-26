@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_calendar"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:visibility="visible" 
+    >
+
+    <RelativeLayout 
+        android:id="@+id/toprelative"
+    	android:background="@color/calendar_top_bg"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:padding="10dp"
+        >
+    <TextView
+        android:id="@+id/calendarCenter"
+        style="@style/main_bar_text_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+         />
+
+    <ImageButton
+        android:id="@+id/calendarLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:background="@null"
+        android:contentDescription="@null"
+        android:src="@drawable/calendar_month_left" />
+
+    <ImageButton
+        android:id="@+id/calendarRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@null"
+        android:contentDescription="@null"
+        android:src="@drawable/calendar_month_right" />
+</RelativeLayout>
+    <com.example.calendarviewdemo.CalendarView
+        android:id="@+id/calendar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toprelative" />
+
+    <Button 
+        android:id="@+id/button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="确定"
+        android:textSize="16dp"
+        android:layout_below="@id/calendar"
+        />
+</RelativeLayout>
