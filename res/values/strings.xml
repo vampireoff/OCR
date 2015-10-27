@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">文字识别</string>
+    <string name="rec_result">识别结果</string>
+    <string name="ready">***准备就绪***</string>
+    <string name="action_settings">设置</string>
+    <string name="gallery_choose">相册选取</string>
+    <string name="scanning_choose">扫描识别</string>
+    <string name="camara_choose">拍照识别</string>
+    <string name="eng">英</string>
+    <string name="chi">中</string>
+    <string name="two">二值化处理</string>
+    <string name="resul">***识别完成***</string>
+    <string name="choosed_image">选取的图片：</string>
+    <string name="deal_image">预处理后的图片：</string>
+    <string name="hard_loading">语言包加载中，请稍等....</string>
+    <string name="btn_ok">确定</string>
+    <string name="btn_cancel">取消</string>
+    <string name="prompts">温馨提示！</string>
+    <string name="sd_no_space">SD卡空间不足65M,麻烦清理一下！</string>
+    <string name="exit_prompt_content">确定退出吗？</string>
+    <string name="rec_true">识别正确</string>
+    <string name="rec_error">识别错误</string>
+    <string name="rec_fails">***识别失败***</string>
+    <string name="error_add">网址错误！</string>
+    <string name="error_phone">号码错误！</string>
+    <string name="recing">识别中......</string>
+    <string name="dealing">预处理中......</string>
+    <string name="loading">加载中......</string>
+    <string name="rec_fail">这货既不是电话号码也不是网址</string>
+    <string name="too_big">图片太大了，请重新裁剪！</string>
+    <string name="tishi">请将文本放置在取景框内</string>
+    
+    <color name="green">#00CD00</color>
+
+</resources>
